@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fase 2 | Exercici lletres repetides JS</title>
+	<script type="text/javascript">
+			
+		var nom = ["G", "A", "B", 3, "I", "E", "L"];
+		
+		console.log("Partim del nom " + nom.join(''));
+
+		for (i=0; i<nom.length; i++) {
+
+			if (nom[i] == "A" || nom[i] == "E" || nom[i] == "I" || nom[i] == "O" || nom[i] == "U") {
+				console.log("He trobat la VOCAL: " + nom[i]);
+
+			} else if (nom[i] >= 0) {
+				console.log("Els noms de persones no contenen el número: " + nom[i]);
+
+			} else {
+				console.log("He trobat la CONSONANT: " + nom[i]);
+
+			}	
+		}
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
